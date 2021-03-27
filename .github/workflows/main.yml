@@ -24,7 +24,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build wahaj-siddiqui-react.surge.sh --token ${{ secrets.SURGE_TOKEN }
+        run: surge ./build wahaj-siddiqui-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
           
           
