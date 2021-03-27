@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Hello from './Hello';
 ReactDOM.render(
   
-    <div>Hello World</div> ,
+    <div><App name="Wahaj" age={25} />
+    <br/>
+    <Hello firstName="Ali"></Hello>
+    
+    </div> ,
   document.getElementById('root')
 );
 
